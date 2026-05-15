@@ -9,3 +9,14 @@ for(var i=0; i<testcase.length; i++){
 }
 
 console.log("loop counter leaked outside", i);
+
+// example of function scope
+
+console.log("HI there");
+
+function say(){
+    console.log("Hello javaScript learner");
+}
+
+say();
+say();
