@@ -1,0 +1,22 @@
+var browser= "chrome";
+var browser= "firefox";
+var browser= "edge";
+
+var testcase= ["TC01", "TC02", "TC03"];
+
+for(var i=0; i<testcase.length; i++){
+    console.log(testcase[i]);
+}
+
+console.log("loop counter leaked outside", i);
+
+// example of function scope
+
+console.log("HI there");
+
+function say(){
+    console.log("Hello javaScript learner");
+}
+
+say();
+say();
